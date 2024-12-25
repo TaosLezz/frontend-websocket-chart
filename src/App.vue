@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <!-- Sử dụng component EChartsComponent ở đây -->
+    <EChartsComponent />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import EChartsComponent from './components/EChartsComponent.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    EChartsComponent
   }
 }
 </script>
